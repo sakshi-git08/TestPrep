@@ -7,6 +7,9 @@ import java.util.function.BiConsumer;
 
 public class HashmapBasics {
     /*  Hashmap : is an associative array data structure
+    -> Associative arrays are also called as Map/Symbol table/Dictionary, which is an abstract data type
+     (a data type which is defined by its behavior), and it is a collection of (key, value) pairs and each key
+      here appears at most once
     -> does not maintain any order.
     -> stores values -- key-Value <k,v>
     ->Hashmap does not contain duplicate key if you do so with different value but same key then
@@ -23,6 +26,7 @@ public class HashmapBasics {
         Represents an operation that accepts two input arguments and returns no result.
         This is the two-arity specialization of Consumer. Unlike most other functional interfaces,
         BiConsumer is expected to operate via side-effects.
+
 
      */
 
